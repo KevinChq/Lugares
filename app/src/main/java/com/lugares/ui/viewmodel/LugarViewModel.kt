@@ -1,4 +1,4 @@
-package com.lugares.viewmodel
+package com.lugares.ui.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.*

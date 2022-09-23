@@ -8,10 +8,11 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.lugares.databinding.FragmentLugarBinding
-import com.lugares.viewmodel.LugarViewModel
+import com.lugares.ui.viewmodel.LugarViewModel
 
 class LugarFragment : Fragment() {
 
+    private lateinit var lugarViewModel: LugarViewModel
     private var _binding: FragmentLugarBinding? = null
 
     // This property is only valid between onCreateView and
@@ -23,16 +24,12 @@ class LugarFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val lugarViewModel =
-            ViewModelProvider(this).get(LugarViewModel::class.java)
+        lugarViewModel =
+            ViewModelProvider(this)[LugarViewModel::class.java]
 
         _binding = FragmentLugarBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textHome
-        lugarViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
-        }
         return root
     }
 
