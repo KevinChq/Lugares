@@ -22,6 +22,24 @@
     <string name="msg_Telefono">Telefono (9999-9999)</string>
     <string name="msg_web">Sitio Web</string>
     <string name="bt_Agregar">Agregar</string>
+    <string name="bt_actualiza">Actualiza</string>
     <string name="todo">TODO</string>
     <string name="nombre_del_lugar">Nombre del lugar</string>
+
+    <string name="msg_enviar_correo">Enviar correo electrónico</string>
+    <string name="msg_phone_call">Realizar llamada telefónica</string>
+    <string name="msg_whatsapp_send">Enviar mensaje WhatsApp</string>
+    <string name="msg_web_view">Abrir sitio Web</string>
+    <string name="msg_map_view">Ver lugar en mapa</string>
+    <string name="tv_latitud_lb">Latitud</string>
+    <string name="tv_longitud_lb">Longitud</string>
+    <string name="tv_altura_lb">Altura</string>
+    <string name="msg_saludos">Saludos amigos</string>
+    <string name="msg_mensaje_correo">Le escribo este correo para</string>
+    <string name="msg_datos">Faltan datos</string>
+    <string name="error">Error</string>
+    <string name="si" />
+    <string name="deleted" />
+    <string name="no" />
+    <string name="seguroBorrar" />
 </resources>
