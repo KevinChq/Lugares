@@ -43,6 +43,7 @@ class UpdateLugarFragment : Fragment() {
 
         binding.btAgregar.setOnClickListener { UpdateLugar() }
         binding.btAgregar.setOnClickListener { modifcarLugar() }
+        binding.btAgregar.setOnClickListener { escribirCorreo() }
         binding.btPhone.setOnClickListener { llamarLugar() }
         binding.btWhatsapp.setOnClickListener { enviarWhatsApp() }
         binding.btWeb.setOnClickListener { verWeb() }
