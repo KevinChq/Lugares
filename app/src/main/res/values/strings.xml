@@ -48,4 +48,16 @@
     <string name="deleted" />
     <string name="no" />
     <string name="seguroBorrar" />
+
+    <string name="msg_imagens">Imagen del lugar</string>
+    <string name="msg_graba_pausa">Graba o pausa grabacion</string>
+    <string name="msg_escucha_audio">Escucha nota de audio</string>
+    <string name="msg_delete_nota">Borra nota de audio</string>
+    <string name="msg_rec_stop_nota">graba o detiene nota de audio</string>
+    <string name="msg_take_photo">Toma foto</string>
+    <string name="msg_rotate_l">Rota a al derecha</string>
+    <string name="msg_graba_audio">Grabando nota de audio</string>
+    <string name="msg_detener_audio">Nota de audio detenida</string>
+    <string name="msg_subiendo_audio">Subiendo nota de audio</string>
+    <string name="msg_subiendo_imagen">Subiendo imagen</string>
 </resources>
