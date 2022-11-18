@@ -1,7 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Lugares</string>
-    <string name="tv_correo">Correo</string>
-    <string name="tv_clave">Contraseña</string>
+    <string name="tv_correo">Email</string>
+    <string name="tv_clave">Password</string>
     <string name="title_activity_principal">Principal</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -21,8 +21,8 @@
     <string name="msg_imagen">Imagen del lugar</string>
     <string name="msg_Telefono">Telefono (9999-9999)</string>
     <string name="msg_web">Sitio Web</string>
-    <string name="bt_Agregar">Agregar</string>
-    <string name="bt_actualiza">Actualiza</string>
+    <string name="bt_Agregar">Added</string>
+    <string name="bt_actualiza">Update</string>
     <string name="todo">TODO</string>
     <string name="nombre_del_lugar">Nombre del lugar</string>
 
@@ -44,9 +44,9 @@
     <string name="msg_firebase_no_update">ERROR: Lugar no actualizado</string>
     <string name="msg_firebase_no_delete">ERROR: Lugar no eliminado</string>
     <string name="error">Error</string>
-    <string name="si"> </string>
+    <string name="si">Yes</string>
     <string name="deleted"> </string>
-    <string name="no"> </string>
+    <string name="no">No</string>
     <string name="seguroBorrar"> </string>
 
     <string name="msg_imagens">Imagen del lugar</string>
@@ -61,6 +61,4 @@
     <string name="msg_subiendo_audio">Subiendo nota de audio</string>
     <string name="msg_subiendo_imagen">Subiendo imagen</string>
 
-
-    <string name="default_web_client_id_r" translatable="false">113359788611-ch4s89geqb5im4lsspin4aihi63qf7f6.apps.googleusercontent.com</string>
 </resources>
